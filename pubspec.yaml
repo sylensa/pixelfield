@@ -35,16 +35,14 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  get: ^4.6.6
-  cached_network_image: ^3.4.1
-  flutter_native_splash: ^2.4.4
-  pull_to_refresh_flutter3: ^2.0.2
-  flutter_bloc: ^9.0.0
-  flutter_flavor: ^3.1.3
-  shared_preferences: ^2.4.0
-  video_player: ^2.9.2
-  timeline_tile_plus: ^0.0.3
-  connectivity_plus: ^5.0.1
+  get: ^4.6.6 # for navigation in the app
+  cached_network_image: ^3.4.1 # for caching images
+  flutter_native_splash: ^2.4.4 # to design native splash screen
+  pull_to_refresh_flutter3: ^2.0.2 # to enable pull and scroll to refresh
+  flutter_bloc: ^9.0.0 # use for state management in the app
+  shared_preferences: ^2.4.0 # for saving data locally on the device
+  video_player: ^2.9.2 # to enable video player in the app on the details page
+  connectivity_plus: ^5.0.1 # to determine if the user is offline or online
 
 flutter_icons:
   image_path: "assets/images/pixelfield_logo.png"
@@ -52,7 +50,7 @@ flutter_icons:
   ios: true
 
 dev_dependencies:
-  flutter_launcher_icons: ^0.14.1
+  flutter_launcher_icons: ^0.14.1 # to design launch icons
   flutter_test:
     sdk: flutter
 
