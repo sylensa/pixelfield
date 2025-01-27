@@ -59,7 +59,7 @@ class WelcomeScreen extends StatelessWidget {
                     children: <Widget>[
                        CustomText(
                         text: 'Have an account? ',
-                        style: TextStyles.bodyStyle.copyWith(color: AppColors.haveAccountTextColor,fontFamily: "Lato-Regular"),
+                        style: TextStyles.bodyStyle.copyWith(color: AppColors.haveAccountTextColor,fontFamily: fontFamilyLato),
                       ),
                       GestureDetector(
                         onTap: () {

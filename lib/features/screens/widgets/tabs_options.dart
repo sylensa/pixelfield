@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pixelfield/core/app_colors.dart';
 import 'package:pixelfield/core/custom_text.dart';
+import 'package:pixelfield/core/helper.dart';
 
 class TabsOptions extends StatefulWidget {
   final List<String> options;
@@ -67,9 +68,9 @@ class _TabsOptionsState extends State<TabsOptions> {
                       child: CustomText(
                         text: widget.options[index],
                         style: TextStyle(
-                          color: childPosition == index ? Colors.black : Color(0XFF899194),
+                          color: childPosition == index ? Colors.black : const Color(0XFF899194),
                           fontSize: 12,
-                          fontFamily: "Lato-Regular",
+                          fontFamily: fontFamilyLato,
                           fontWeight: FontWeight.w400,
                         ),
 

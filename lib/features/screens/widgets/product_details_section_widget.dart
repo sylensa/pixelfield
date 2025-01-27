@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pixelfield/core/app_colors.dart';
 import 'package:pixelfield/core/custom_text.dart';
+import 'package:pixelfield/core/helper.dart';
 import 'package:pixelfield/core/text_styles.dart';
 
 class ProductDetailsSectionWidget extends StatelessWidget {
@@ -16,8 +17,8 @@ class ProductDetailsSectionWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          CustomText(text: title, style: TextStyles.bodyStyle.copyWith(fontFamily: "Lato-Regular")),
-          CustomText(text: content, style: TextStyles.bodyStyle.copyWith(fontFamily: "Lato-Regular",color: AppColors.tabsColor)),
+          CustomText(text: title, style: TextStyles.bodyStyle.copyWith(fontFamily: fontFamilyLato)),
+          CustomText(text: content, style: TextStyles.bodyStyle.copyWith(fontFamily: fontFamilyLato,color: AppColors.tabsColor)),
         ],
       ),
     );

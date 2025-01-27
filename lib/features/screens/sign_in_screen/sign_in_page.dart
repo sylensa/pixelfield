@@ -99,7 +99,7 @@ class _SignInPageState extends State<SignInPage> {
                   children: <Widget>[
                     CustomText(
                       text: 'Can\'t sign in? ',
-                      style: TextStyles.bodyStyle.copyWith(fontFamily: "Lato-Regular"),
+                      style: TextStyles.bodyStyle.copyWith(fontFamily: fontFamilyLato),
                     ),
                     const SizedBox(width: 20,),
                     GestureDetector(

@@ -85,7 +85,7 @@ class _MyAppState extends State<MyApp> {
           theme: ThemeData(
             useMaterial3: false,
             scaffoldBackgroundColor: AppColors.primaryColor,
-            fontFamily: "EBGaramond",
+            fontFamily: fontFamilyEBGaramond,
             brightness: Brightness.light,
 
           ),

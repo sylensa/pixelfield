@@ -107,15 +107,15 @@ class ProductDetailsPage extends StatelessWidget {
                        RichText(
                            text:TextSpan(
                                text: "Talisker",
-                               style: TextStyles.subHeaderStyle.copyWith(fontSize: 32,fontWeight: FontWeight.w500,color: AppColors.textFieldColor,fontFamily: "EBGaramond"),
+                               style: TextStyles.subHeaderStyle.copyWith(fontSize: 32,fontWeight: FontWeight.w500,color: AppColors.textFieldColor,fontFamily: fontFamilyEBGaramond),
                                children: [
                                  TextSpan(
                                    text: ' 18 Year old',
-                                   style: TextStyles.subHeaderStyle.copyWith(fontSize: 32,fontWeight: FontWeight.w500,color: AppColors.buttonColor,fontFamily: "Lato-Regular"),
+                                   style: TextStyles.subHeaderStyle.copyWith(fontSize: 32,fontWeight: FontWeight.w500,color: AppColors.buttonColor,fontFamily: fontFamilyLato),
                                  ),
                                  TextSpan(
                                    text: ' #2504',
-                                   style: TextStyles.subHeaderStyle.copyWith(fontSize: 32,fontWeight: FontWeight.w500,color: AppColors.textFieldColor,fontFamily: "Lato-Regular"),
+                                   style: TextStyles.subHeaderStyle.copyWith(fontSize: 32,fontWeight: FontWeight.w500,color: AppColors.textFieldColor,fontFamily: fontFamilyLato),
 
                                  ),
                                ]

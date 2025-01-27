@@ -5,6 +5,8 @@ import 'package:pixelfield/core/app_colors.dart';
 import 'package:pixelfield/core/custom_text.dart';
 
 final rootNavigatorKey = GlobalKey<NavigatorState>();
+const fontFamilyLato = "Lato-Regular";
+const fontFamilyEBGaramond = "EBGaramond";
 appWidth(context) {
   return MediaQuery.of(context).size.width;
 }
